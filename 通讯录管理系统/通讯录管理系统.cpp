@@ -20,7 +20,7 @@ class AddressBook {
 public:
     Contact* contact;//使用动态内存的数组存储联系人
     size_t capacity;//通讯录的最大容量 10
-    size_t count;//当前存储的联系人数量 2
+    size_t count=0;//当前存储的联系人数量 2
 public:
     AddressBook() :capacity(10), count(0) {
         contact = new Contact[capacity];
