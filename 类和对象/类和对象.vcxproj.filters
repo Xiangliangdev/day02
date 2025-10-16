@@ -21,5 +21,8 @@
     <ClCompile Include="构造函数.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="复制构造函数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
